@@ -22,7 +22,7 @@ Prefix location? [~/micromamba] /opt/mamba
 ## Micromamba 환경 구축
 ```bash
 # ROS2 Humble Micromamba 환경 구축
-micromamba create -n ros2 -c conda-forge -c robostack-staging ros-humble-desktop
+micromamba create -n ros2 python=3.11 -c conda-forge -c robostack-staging ros-humble-desktop
 
 # ROS2 Humble Micromamba 환경 활성화
 micromamba activate ros2
