@@ -65,5 +65,5 @@ rosdep update
 ### rosdep으로 종속 패키지 검색 및 설치
 ```bash
 # baqu4ws 위치로 이동
-rosdep install --from-paths src --ignore-src
+rosdep install --from-paths src --ignore-src --os="conda:"
 ```
