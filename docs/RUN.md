@@ -18,3 +18,11 @@ ros2 launch <package name> <launch file name>
 # devel/setup.sh 로그하기
 source devel/setup.sh
 ```
+
+## Cluering_cxx
+
+```bash
+# parameters.h 확인하고 -p 옵션 통해 파라미터 설정
+# 제일 잘 되는 값을 기본 파라미터 값으로 변경
+ros2 run clustering_cxx clustering --ros-args -p minClusterSize:=10
+```
