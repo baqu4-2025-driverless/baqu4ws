@@ -6,6 +6,10 @@
 	path = src/perception/clustering_cxx
 	url = git@github.com:baqu4-2025-driverless/clustering_cxx
   branch = main
+[submodule "src/decision/decision_cxx"]
+	path = src/decision/decision_cxx
+	url = git@github.com:baqu4-2025-driverless/decision_cxx
+  branch = main
 
 [submodule "src/slam/eigen"]
 	path = src/slam/eigen
